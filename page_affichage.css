@@ -1,0 +1,282 @@
+.proto-de-page-d-affichage-du-jeux,
+.proto-de-page-d-affichage-du-jeux * {
+  box-sizing: border-box;
+}
+.proto-de-page-d-affichage-du-jeux {
+  background: rgba(6, 5, 5, 0.58);
+  width: 1336px;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  inset: 0;
+}
+.logo-removebg-preview-2 {
+  width: 154.39px;
+  height: 130px;
+  position: absolute;
+  left: 663.77px;
+  top: 46px;
+}
+.y-best-ga-es {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 310px;
+  top: calc(50% - 379px);
+  width: 715.72px;
+  height: 176.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-1 {
+  width: 1470px;
+  height: 809px;
+  position: absolute;
+  left: -67px;
+  top: 117px;
+  box-shadow: 0px 4px 7.6px 0px rgba(0, 0, 0, 0.25);
+}
+.icon-menu-d-filant {
+  border-radius: 0px;
+  width: 81.8px;
+  height: 80px;
+  position: absolute;
+  left: 62px;
+  top: 65px;
+  overflow: visible;
+}
+.rectangle-5 {
+  background: rgba(0, 0, 0, 0.1);
+  width: 1336px;
+  height: 768px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.nom-du-jeu {
+  color: #ffffff;
+  text-align: center;
+  font: 400 36px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 483px;
+  top: 191px;
+  width: 362px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #d9d9d9;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 8px;
+  width: 486px;
+  height: 246px;
+  position: absolute;
+  left: 731px;
+  top: 276px;
+}
+.trailer {
+  color: #ffffff;
+  text-align: center;
+  font: 400 36px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 748px;
+  top: 283px;
+  width: 122px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 8px;
+  width: 486px;
+  height: 246px;
+  position: absolute;
+  left: 245px;
+  top: 522px;
+}
+.awards-games {
+  color: #ffffff;
+  text-align: center;
+  font: 400 36px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 217px;
+  top: 522px;
+  width: 358px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description-du-jeu {
+  color: #ffffff;
+  text-align: center;
+  font: 400 36px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 236px;
+  top: 286px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-2 {
+  background: #111010;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: -1918px;
+  top: 0px;
+  overflow: hidden;
+}
+.banni-re {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(98, 85, 85, 1) 33.33333432674408%,
+    rgba(98, 85, 85, 1) 66.66666865348816%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  height: 210px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+._984834-game-awards-2023-la-liste-des-nomines-pour-le-goty-2 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 9px;
+  position: absolute;
+  right: 71.74px;
+  left: 680px;
+  bottom: 244px;
+  top: 300px;
+}
+.icon-menu-d-filant2 {
+  border-radius: 0px;
+  width: 103px;
+  height: 123px;
+  position: absolute;
+  left: 91px;
+  top: calc(50% - 437px);
+  overflow: visible;
+}
+.introduction {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 336px;
+  top: 301px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-removebg-preview-22 {
+  width: 169.9px;
+  height: 153.89px;
+  position: absolute;
+  left: 733px;
+  top: 42px;
+}
+.y-best-ga-es2 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 64px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 372px;
+  top: calc(50% - 498px);
+  width: 700px;
+  height: 176.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+.banni-re2 {
+  height: 205px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.logo2 {
+  width: 700px;
+  height: 176.5px;
+  position: static;
+}
+.logo-removebg-preview-23 {
+  width: 151px;
+  height: 130px;
+  position: absolute;
+  left: 663.86px;
+  top: 47px;
+}
+.y-best-ga-es3 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 317.86px;
+  top: calc(50% - 378px);
+  width: 700px;
+  height: 176.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-hamburger {
+  width: 62.59px;
+  height: 70px;
+  position: absolute;
+  left: 84.11px;
+  top: 69px;
+}
+.icon-menu-d-filant3 {
+  border-radius: 0px;
+  width: 73.35px;
+  height: 100px;
+  position: absolute;
+  left: 39.12px;
+  top: 50px;
+  overflow: visible;
+}
+.rectangle-6 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 32.60415494441986%,
+    rgba(255, 255, 255, 0) 63.85415196418762%
+  );
+  width: 1336px;
+  height: 79px;
+  position: absolute;
+  left: 0px;
+  top: 205px;
+}
