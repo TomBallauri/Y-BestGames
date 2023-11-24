@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+} 
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles spécifiques pour les écrans de 600 pixels de large et moins */
+
+  body {
+      font-size: 14px;
+  }
+
+  .container {
+      width: 100%;
+  }
+}
+
+.banniere {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(to right, black, gray, grey, black);
+  /* Dégradé noir-gris-noir */
+}
+
+.opaque {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+}
+
+.logo {
+  position: absolute;
+  transform: translate(55%,-10%);
+}
+
+.hamburger {
+  position: absolute;
+  height: 10%;
+  transform: translate(50%,50%);
+
+}
+
+.nom_du_jeu {
+  position: relative;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 23%; /* Centre le texte verticalement */
+  left: 50%; /* Centre le texte horizontalement */
+  transform: translate(-50%, -50%); /* Ajuste la position du texte */
+}
+
+.cadre {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  border-radius: 45px;
+  border: 8px solid #000;
+  background: #D9D9D9;
+  mix-blend-mode: plus-darker;
+  transform: translate(135%, 80%);
+}
+
+.cadre2 {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  border-radius: 45px;
+  border: 8px solid #000;
+  background: #D9D9D9;
+  mix-blend-mode: plus-darker;
+  transform: translate(10%, 200%);
+}
+.image_fond {
+  body {
+    background-image: url("Assets/Elden\ ring.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+}
+
+.nom_du_jeu {
+  color:white;
+  font-size: 50px;
+  text-shadow: 0px 0 0 yellow,0 1px 0 yellow,0px 0 0 yellow, 0 0px 0 yellow;;
+}
