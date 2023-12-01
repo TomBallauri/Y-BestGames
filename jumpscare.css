@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+.bloc {
+    position: absolute;
+}
+
+.bloc video {
+    position: absolute;
+    width: 1510px;
+    height: 500;
+}
