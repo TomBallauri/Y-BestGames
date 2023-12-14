@@ -145,7 +145,7 @@
     border: 8px solid #000000;
     background: #ffffff00;
     mix-blend-mode: plus-darker;
-    transform: translate(5%, -100%);
+    transform: translate(20%, -100%);
   }
   
   .cadre .item img{
@@ -161,7 +161,7 @@
     .card{
       width: 350px;
       height: 500px;
-      transform: translate(260%,40%);
+      transform: translate(300%,40%);
       perspective: 1000px;
     }
 
@@ -285,7 +285,7 @@
     text-align: center;
     gap: 1px;
     width: 33%;
-    transform: translate(18%, 5rem);
+    transform: translate(23%, 5rem);
   }
 
   main .p2{
@@ -298,7 +298,7 @@
     text-align: center;
     gap: 1px;
     width: 33%;
-    transform: translate(155%, 15rem);
+    transform: translate(180%, 15rem);
   }
 
   main .p3{
