@@ -45,7 +45,7 @@
 
   .dark{
     position: absolute;
-    transform: translate(15rem,-36rem);
+    transform: translate(15rem,-33.5rem);
     overflow: hidden;
   }
 
@@ -277,17 +277,17 @@
 
 
 
-  main .p1{
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    background-color: #00000031;
-    border: 4px solid #666666;
-    border-radius: 1.5rem ;
-    text-align: center;
-    width: 33%;
-    transform: translate(23%, 5rem);
-  }
+    main .p1{
+      position: absolute;
+      color: white;
+      font-size: 20px;
+      background-color: #00000031;
+      border: 4px solid #666666;
+      border-radius: 1.5rem ;
+      text-align: center;
+      width: 33%;
+      transform: translate(23%, 5rem);
+    }
 
   main .p1:hover{
     font-size: 24px;
@@ -355,4 +355,78 @@
     gap: 1px;
     width: 66%;
     transform: translate(30%, 40rem);
+  }
+
+
+
+  .sidenav {
+    height: 100%;
+    width: 38%;
+    position: absolute;
+    border: 8px solid black;
+    z-index: 1;
+    top: 0%;
+    left: -250px;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    background-color: rgba(174, 174, 174, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /** Sidenav menu links **/
+  .sidenav a {
+    border: 8px solid wheat;
+    text-decoration: none;
+    font-size: 25px;
+    color: White;
+    display: block;
+    transition: 0.3s;
+    font-weight: 300;
+    transform: translate(45%);
+  }
+
+  .sidenav a:hover {
+    color: rgb(0, 145, 255);
+  }
+
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /** Active class **/
+  .sidenav.active {
+    left: 0;
+  }
+
+  /** Close btn **/
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  /* Icône burger */
+  .burger-icon{
+    height: 80px;
+    left: 1.1%;
+    object-fit: cover;
+    position: absolute;
+    top: 1.8%;
+    width: 90px;
+    background-color:transparent;
+    box-shadow: none;
+    border-radius: 30%;
+    border-color: transparent;
+    cursor: pointer;
+
+  }
+
+ .logo-burger{
+   position:absolute;
+    height: 120px;
+
   }
