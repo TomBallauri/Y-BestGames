@@ -43,11 +43,7 @@
   }
   
 
-  .dark{
-    position: absolute;
-    transform: translate(15rem,-33.5rem);
-    overflow: hidden;
-  }
+
 
   .fire {
     margin: 50px auto;
@@ -359,31 +355,32 @@
 
 
 
+
+  /* Barre de nav*/
+
   .sidenav {
-    height: 100%;
-    width: 38%;
+    height: 79.6%;
+    width: 250px;
     position: absolute;
-    border: 8px solid black;
     z-index: 1;
-    top: 0%;
+    top: 0rem;
     left: -250px;
-    padding-top: 60px;
+    background-image: url(/img/vertical.jpg);
+    padding-top: 4%;
     transition: left 0.5s ease;
     background-color: rgba(174, 174, 174, 0.2);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  /** Sidenav menu links **/
+  /* Sidenav menu links */
   .sidenav a {
-    border: 8px solid wheat;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: White;
     display: block;
     transition: 0.3s;
-    font-weight: 300;
-    transform: translate(45%);
   }
 
   .sidenav a:hover {
@@ -396,37 +393,52 @@
     margin: 0;
   }
 
-  /** Active class **/
+  /* Active class */
   .sidenav.active {
     left: 0;
   }
 
-  /** Close btn **/
+  /* Close btn */
   .sidenav .close {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 1px;
+    right: 0rem;
     font-size: 36px;
   }
 
   /* Icône burger */
   .burger-icon{
-    height: 80px;
-    left: 1.1%;
-    object-fit: cover;
+    object-fit: cover; 
     position: absolute;
-    top: 1.8%;
-    width: 90px;
     background-color:transparent;
     box-shadow: none;
     border-radius: 30%;
     border-color: transparent;
-    cursor: pointer;
-
+    top: 1rem;
+    left: 1rem;
   }
 
  .logo-burger{
-   position:absolute;
+    position: absolute;
     height: 120px;
+  }
 
+
+
+  /* Bouton accueil*/
+
+  .accueil{
+    width: 39%;
+    left: 39%;
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    top: -1.5rem;
+    left: 28rem;
+  }
+   
+  .accueil:active {
+    box-shadow: none;
+    transform: translateY(0);
   }
