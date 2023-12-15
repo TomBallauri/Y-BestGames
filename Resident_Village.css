@@ -28,6 +28,7 @@
 }
 }
 
+@media only screen and (min-width: 620px) {
 .jumpscare {
   position: relative;
   text-align: left;
@@ -38,6 +39,7 @@
   background: transparent;
   border: none;
   font-size: 25px;
+}
 }
 
 @media only screen and (min-width: 620px) {
