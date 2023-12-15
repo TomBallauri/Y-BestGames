@@ -3,34 +3,32 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   } 
   
   
-  @media only screen and (max-width: 600px) {
-    /* Styles spécifiques pour les écrans de 600 pixels de large et moins */
-  
+  @media only screen and (max-width: 1500px) {
     body {
       background-image:url(Assets/Resident-Evil-Village-ss1.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-position: 100%;
+      background-position: 100%;  
     }
   
     .container {
         width: 100%;
     }
   }
-  
-  
-  .degrade {
+ 
+  @media (min-width: 100px){
+    .degrade {
       width: 100%;
       height: 80%;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 32.6%, rgba(255, 255, 255, 0) 63.85%)
+      position: fixed;
+      background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 32.6%, rgba(255, 255, 255, 0) 63.85%);
+    }
   }
-  
+   
   
   .logo {
     position: absolute;
@@ -39,9 +37,9 @@
   
   .hamburger {
     position: absolute;
-    height: 10%;
-    transform: translate(30%,-690%);
-
+    height: 8%;
+    max-height: 100%;
+    transform: translate(30%,-850%);
   }
   
 
@@ -73,26 +71,28 @@
     vertical-align: middle;
   }
   
-  .Blazing {
-    display: inline-block;
-    margin: 0;
-  
-      color: rgb(98, 0, 255);
-      font-size: 100px;
-    line-height: 50px;
-    min-width: 50px;
-    outline: none;
-    vertical-align: middle;
-      
-    text-shadow:
-          0 3px 20px red,
-          0 0 20px red,
-      0 0 10px orange,
-      4px -5px 6px yellow,
-      -4px -10px 10px yellow,
-      0 -10px 30px yellow;
-    animation: 2s Blazing infinite alternate linear;
+  @media (min-width:100px){
+    .Blazing {
+      display: inline-block;
+      margin: 0;
+        color: rgb(98, 0, 255);
+        font-size: 100px;
+      line-height: 50px;
+      min-width: 50px;
+      outline: none;
+      vertical-align: middle;
+        
+      text-shadow:
+            0 3px 20px rgb(98, 0, 255),
+            0 0 20px rgb(98, 0, 255),
+        0 0 10px rgb(0, 132, 255),
+        4px -5px 6px rgb(0, 242, 255),
+        -4px -10px 10px rgb(0, 242, 255),
+        0 -10px 30px rgb(0, 242, 255);
+      animation: 2s Blazing infinite alternate linear;
+    }
   }
+  
   
   @keyframes Blazing {
     0%   { text-shadow: 0 3px 20px rgb(0, 102, 255), 0 0 20px rgb(0, 102, 255),
@@ -134,18 +134,20 @@
 
 
 
-
-  .cadre {
-    position: absolute;
-    width: 49rem;
-    height: 300px;
-    flex-shrink: 0;
-    opacity: 1;
-    border-radius: 45px;
-    border: 8px solid #000000;
-    background: #ffffff00;
-    mix-blend-mode: plus-darker;
-    transform: translate(20%, -100%);
+  @media (min-width:10px){
+    .cadre {
+      position: absolute;
+      width: 49rem;
+      height: 20rem;
+      min-width: 19rem;
+      min-height: 0rem;
+      flex-shrink: 0;
+      border-radius: 45px;
+      border: 8px solid #000000;
+      background: #ffffff00;
+      mix-blend-mode: plus-darker;
+      transform: translate(20%, -100%);
+    }
   }
   
   .cadre .item img{
@@ -162,7 +164,7 @@
       width: 350px;
       height: 500px;
       transform: translate(300%,40%);
-      perspective: 1000px;
+      perspective: -500px;
     }
 
     .content-card{
@@ -255,17 +257,17 @@
   }
 
   .button button {
+    background-color: #ffffff4a;
       width: 40px;
       height: 35px;
       border-radius: 8px;
       border: none;
       cursor: pointer;
-      border: 1px solid #000000;
       transition: 0.3s
   }
 
   .button button:hover {
-      background: #9a9a9a;
+      background: #ffffff;
       color: #000000;
   }
 
@@ -283,9 +285,16 @@
     border: 4px solid #666666;
     border-radius: 1.5rem ;
     text-align: center;
-    gap: 1px;
     width: 33%;
     transform: translate(23%, 5rem);
+  }
+
+  main .p1:hover{
+    font-size: 24px;
+    width: 40%;
+    background-color: #00000099;
+    transition: ease-in-out 3s;
+
   }
 
   main .p2{
@@ -299,6 +308,13 @@
     gap: 1px;
     width: 33%;
     transform: translate(180%, 15rem);
+  }
+
+  main .p2:hover{
+    font-size: 24px;
+    transform: translate(180%,13rem);
+    background-color: #00000099;
+    transition: ease-in-out 3s;
   }
 
   main .p3{
@@ -320,4 +336,23 @@
     font-style: normal;
     font-weight: bold;
     -webkit-text-stroke: 2px white;
+  }
+
+  main .p3:hover{
+    font-size: 24px;
+    background-color: #00000099;
+    transition: ease-in-out 3s;
+  }
+
+  main .p4{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background-color: #00000031;
+    border: 1px solid transparent;
+    border-radius: 1.5rem ;
+    text-align: center;
+    gap: 1px;
+    width: 66%;
+    transform: translate(30%, 40rem);
   }
